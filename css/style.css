@@ -10,7 +10,7 @@ html *
 /*   https://stackoverflow.com/questions/7025756/how-to-apply-global-font-to-whole-html-document */
 }
 body {
-	font-size: 15px;
+	font-size: 17px !important;
     line-height: 1.52;
     color: #717f86;
     font-size: 16px;
@@ -138,7 +138,7 @@ Banner
 }
 .intro-para{
 	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 45px;
+	font-size: 40px;
 	color: #fff;
 	margin-top: 30px;
 }
@@ -243,8 +243,12 @@ Banner
 Features
 ************************************/
 h2{
-	font-size: 24px;
+	font-size: 24px !important; /* coressponds to PROJECTS heading */
 	padding-bottom: 15px;
+}
+
+h3 {
+    font-size: 24px !important; 
 }
 .bottom-line{
 	width: 25px;
@@ -721,7 +725,7 @@ Responsive media queries
     font-size: 30px;
     }
     .small-text {
-    font-size: 14px;
+    font-size: 20px;
     }
     .intro-para {
     font-size: 30px;
